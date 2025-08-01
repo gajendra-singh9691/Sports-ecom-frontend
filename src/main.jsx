@@ -10,8 +10,9 @@ import LoginPage from './Component/LoginPage.jsx';
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path='/*' element={<App />}  />
-      
+      <Route path='/*' element={<LoginPage />}  />
+      {/* <Route path='/admin' element={<LoginPage />} /> */}
+      {/* <Route path='/admin-panal' element={<Admin />} /> */}
     </Routes>
     <Toaster />
   </BrowserRouter>
