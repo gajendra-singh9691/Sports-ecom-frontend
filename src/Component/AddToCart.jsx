@@ -32,7 +32,7 @@ const AddToCart = ({ addtocart, fun, data }) => {
     }
 
     const whatsapp = () => {
-        const phoneNumber = '7219887604'
+        const phoneNumber = '0000000000'
         let message = ''
         // console.log(data);
         
