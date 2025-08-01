@@ -11,8 +11,7 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path='/*' element={<App />}  />
-      <Route path='/admin' element={<LoginPage />} />
-      <Route path='/admin-panal' element={<Admin />} />
+      
     </Routes>
     <Toaster />
   </BrowserRouter>
