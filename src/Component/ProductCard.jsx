@@ -30,7 +30,7 @@ const ProductCard = ({ product, onAddToCart }) => {
             </div>
             <div>
                 <h4 className="h-7 overflow-hidden">{product.name}</h4>
-            <p className="h-7 hidden sm:block">{product.description}</p>
+            <p className="h-14 hidden overflow-hidden sm:block">{product.description}</p>
             <div className="flex gap-2 flex-col">
                 <div className="flex justify-between">
                     <span>Size: </span>
