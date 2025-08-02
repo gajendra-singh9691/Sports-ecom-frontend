@@ -88,7 +88,7 @@ const ContactForm = () => {
         <div className="text-gray-500 text-xs mt-2">
           &copy; 2025 yoursretrohubz. All rights reserved.
         </div>
-        <Link to="/admin" className="sticky bottom-0 left-0" >Admin</Link>
+        <Link to="/admin" className="sticky bottom-0 left-0 bg-white" >Admin</Link>
       </footer>
     </div>
   );
