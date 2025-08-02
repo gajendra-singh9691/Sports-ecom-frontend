@@ -80,6 +80,7 @@ const Navbar = ({ onOpen,fun,cartopen }) => {
                     <button className="text-2xl text-black hover:text-gray-600 cursor-pointer" aria-label="Cart" onClick={()=>fun(!cartopen)}>
                         <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
+                    <Link to="/admin">Admin</Link>
                 </div>
             </div>
 
